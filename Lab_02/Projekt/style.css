@@ -1,0 +1,130 @@
+::selection {
+    background: #709070;  
+    color: black;     
+}
+
+
+
+.font {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+}
+
+
+body {
+    color:white;
+    background: linear-gradient(to bottom, #707070, #505050) ;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    background: linear-gradient(to left, #568450, #509950);
+    flex-wrap: wrap;
+    
+    
+
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 10px;
+    
+        
+}
+
+.header-cela {
+    display: flex;
+    
+}
+
+
+.navbar {
+    
+    display: flex;
+    justify-content: flex-start;
+    
+    background: linear-gradient(to right, #568450, #509950);
+    
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    
+    
+    transition: background-color 0.2s;
+}
+
+.navbar a.current {
+    background-color: #92817A;
+}
+
+.navbar a:hover {
+    background-color: #92817A;
+}
+
+.homepage-display {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    flex-direction: column;
+   
+
+    background-image: url(assets/homepage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.display-cela {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(40px, 10vw, 150px);
+    background: linear-gradient(to right, #568450, #509950);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    
+
+}
+
+.motivational-quote {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(8px, 3vw, 40px);
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    background: linear-gradient(to right, #FFCFCF, #903040);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    
+}
+
+
+#krolik {
+    width: auto;
+    height: 90px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    
+}
