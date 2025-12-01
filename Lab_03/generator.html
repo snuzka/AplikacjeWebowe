@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <form id="settings" autocomplete="off">
+        Minimalna długość hasła:<br>
+        <input type="number" id="minimum" min="1" required value="5"><br>
+        Maksymalna długość hasła:<br>
+        <input type="number" id="maksimum" min="1" required value="10"><br>
+        <input type="checkbox" id="capital">Czy hasło ma zawierać wielkie litery<br>
+        <input type="checkbox" id="special">Czy hasło ma zawierać znaki specjalne<br>
+        <button type="submit" id="generate">Wygeneruj hasło</button>
+    </form>
+    <script src="generator.js"></script>
+</html>
