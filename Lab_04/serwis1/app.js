@@ -36,8 +36,6 @@ function onlyAdmin(req, res, next) {
   next();
 }
 
-
-
 app.get("/api/books", async (req, res) => {
   const books = await Book.findAll();
   res.json(books);
